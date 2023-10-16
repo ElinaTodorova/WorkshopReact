@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+nav p {
+    font-size: 1.6rem;
+    color: white;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif ;
+    font-style: italic;
+}
+
+img {
+    height: 100px;
+
+}
+button {
+    width: 10rem;
+    height: 3rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family:'Times New Roman', Times, serif ;
+    font-style: italic;
+    font-size: 1.6rem;
+}
