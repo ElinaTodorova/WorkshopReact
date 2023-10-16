@@ -6,14 +6,15 @@ import CardContainer from './components/CardContainer/CardContainer.jsx'
 
 
 function App() {
- 
+
   return (
 
-
-  <NavBar/>
-  <CardContainer />
-
-)}
+    <>
+      <NavBar />
+      <CardContainer />
+    </>
+  )
+}
 
 
 export default App;
