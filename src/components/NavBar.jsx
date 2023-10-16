@@ -7,7 +7,7 @@ export default function NavBar(){
         <nav>
             <img src= {logo} alt="logo мечка" />
             <p id="titre">мечка</p>
-            <button>Log In</button>
+            <button>Log in</button>
         </nav>
     )
 }
