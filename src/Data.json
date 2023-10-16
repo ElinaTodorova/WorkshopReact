@@ -1,0 +1,30 @@
+[
+    {
+        "title" : "Why my code is not working ?!?",
+        "img" : "codeNotWorking.jpg"
+    },
+    {
+        "title" : "My life while coding",
+        "img" : "hateMyLife.jpg"
+    },
+    {
+        "title": "The importance of semicoin",
+        "img": "semicoin.jpg"
+    },
+    {
+        "title": "Quand je présente au stagiaire le nouveau projet qu\n'on nous a assigné",
+        "img" : "https://lesjoiesducode.fr/content/039/PaG9s5i.webm"
+    },
+    {
+        "title": "Quand je cherche un nom pour ma nouvelle variable",
+        "img" : "https://lesjoiesducode.fr/content/049/gaKMOQX.webm"
+    },
+    {
+        "title": "Quand j’ai codé toute la nuit pour rendre mon premier projet d’études dans les temps",
+        "img" : "https://lesjoiesducode.fr/content/049/fenVNu6.webm"
+    },
+    {
+        "title": "Non rien.",
+        "img": "bug-prod-scooby-doo.jpg"
+    }
+]
