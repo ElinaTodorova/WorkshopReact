@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Data from '../src/Data.json'
 import CartMemes from './components/CardMemes/CardMemes.jsx'
+import CardContainer from './components/CardContainer/CardContainer.jsx'
 
 function App() {
   const arrayMemes = Data;
@@ -11,10 +12,7 @@ function App() {
 
   return (
     <>
-     {arrayMemes.map((element) => 
-      <CartMemes key={element.title} title={element.title} img={element.img}></CartMemes>
-     )}
-     
+    <CardContainer />
     </>
   )
 }
