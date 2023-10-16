@@ -1,0 +1,22 @@
+/*--------------BUTTON LIKE-----------*/
+
+button {
+  border: none;
+  background-color: #e3e3e2;
+  margin-right: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.like {
+  height: 2em;
+}
+
+#liked {
+  height: 2em;
+}
+
+/*---------------BUTTON DISLIKE----------*/
+
+.dislike {
+  height: 2em;
+}
