@@ -2,7 +2,9 @@
 
 button {
   border: none;
-  background-color: white;
+  background-color: #e3e3e2;
+  margin-right: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .like {

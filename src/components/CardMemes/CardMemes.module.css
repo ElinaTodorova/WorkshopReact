@@ -27,3 +27,11 @@
     height: 100%;
 }
 
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem
+}
+
