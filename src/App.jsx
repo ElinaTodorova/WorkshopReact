@@ -1,15 +1,20 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import CompteurLike from "./assets/components/compteur_likes/compteur";
+
+import { useState } from 'react'
+import './App.css'
+import CartMemes from './components/CardMemes/CardMemes.jsx'
+import CardContainer from './components/CardContainer/CardContainer.jsx'
+
+
+
 
 function App() {
+ 
   return (
-    <div>
-      <CompteurLike />
-    </div>
-  );
+
+    <>
+    <CardContainer />
+    </>
+
 }
 
 export default App;
