@@ -1,0 +1,20 @@
+/*--------------BUTTON LIKE-----------*/
+
+button {
+  border: none;
+  background-color: white;
+}
+
+.like {
+  height: 2em;
+}
+
+#liked {
+  height: 2em;
+}
+
+/*---------------BUTTON DISLIKE----------*/
+
+.dislike {
+  height: 2em;
+}
