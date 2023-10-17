@@ -7,16 +7,45 @@ button {
   padding-bottom: 0.5rem;
 }
 
+p {
+  color: black;
+}
+
 .like {
-  height: 2em;
+  height: 1.5rem;
 }
 
 #liked {
-  height: 2em;
+  height: 1.5rem;
 }
 
 /*---------------BUTTON DISLIKE----------*/
 
 .dislike {
-  height: 2em;
+  height: 1.5rem;
+}
+
+@media screen and (min-width: 320px) and (max-width : 768px) {
+    .like, .dislike, #liked{
+      height: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    button {
+      margin-bottom: 1rem;
+    }
+
+  }
+
+  @media  screen and (min-width: 768px) and (max-width : 1024px){
+    .like, .dislike, #liked{
+      height: 1.5rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
 }
