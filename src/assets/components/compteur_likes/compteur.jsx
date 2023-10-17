@@ -32,7 +32,7 @@ function CompteurLike() {
       <button id={clicked ? "liked" : ""} onClick={handleLikeClick}>
         <img
           className="like"
-          src={clicked ? "images/heart-like.svg" : "images/icon-like.png"}
+          src={clicked ? "images/green-heart.svg" : "images/icon-like.png"}
           alt="Like"
         />
         <p>{count}</p>

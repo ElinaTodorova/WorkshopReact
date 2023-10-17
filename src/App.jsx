@@ -1,15 +1,16 @@
-import { useState } from 'react'
-import CardContainer from './components/CardContainer/CardContainer'
-import './App.css'
-import NavBar from './components/NavBar'
+import NavBar from "./components/NavBar";
+import { useState } from "react";
+import "./App.css";
+import CartMemes from "./components/CardMemes/CardMemes.jsx";
+import CardContainer from "./components/CardContainer/CardContainer.jsx";
 
 function App() {
   return (
-<div>
-  <NavBar/>
-  <CardContainer/>
-</div>
-  )
+    <div>
+      <NavBar />
+      <CardContainer />
+    </div>
+  );
 }
 
-export default App
+export default App;
