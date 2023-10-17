@@ -28,7 +28,7 @@ function CompteurLike() {
   };
 
   return (
-    <div>
+    <>
       <button id={clicked ? "liked" : ""} onClick={handleLikeClick}>
         <img
           className="like"
@@ -45,7 +45,7 @@ function CompteurLike() {
         />
         <p>{dislikeCount}</p>
       </button>
-    </div>
+    </>
   );
 }
 console.log("LIKE!!!!");
