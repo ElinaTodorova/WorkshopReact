@@ -1,19 +1,15 @@
-import NavBar from './components/NavBar'
 import { useState } from 'react'
+import CardContainer from './components/CardContainer/CardContainer'
 import './App.css'
-import CartMemes from './components/CardMemes/CardMemes.jsx'
-import CardContainer from './components/CardContainer/CardContainer.jsx'
-
+import NavBar from './components/NavBar'
 
 function App() {
- 
   return (
-
-
+<div>
   <NavBar/>
-  <CardContainer />
+  <CardContainer/>
+</div>
+  )
+}
 
-)}
-
-
-export default App;
+export default App

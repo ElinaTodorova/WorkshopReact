@@ -21,7 +21,7 @@ img {
     height: 100px;
 
 }
-button {
+nav button {
     width: 10rem;
     height: 3rem;
     background-color: transparent;
@@ -30,4 +30,5 @@ button {
     font-family:'Times New Roman', Times, serif ;
     font-style: italic;
     font-size: 1.6rem;
+    margin: 0;
 }
