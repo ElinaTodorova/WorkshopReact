@@ -7,7 +7,7 @@ import maintenance from '../assets/maintenance-icon.svg'
 export default function NavBar(){
 
  function handleClickLogin () {
- alert (<img src={maintenance}/> + "Under maintenance, please comme back later.")
+ alert ("Under maintenance, please comme back later.")
  }
     return (
         <nav>
